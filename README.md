@@ -25,7 +25,7 @@ python main.py --data_path ./dataset/ETT/ETTh1.csv --dataset ETT --channels 7 --
 
 ## Part 1. Dataset (20 pts)
 
-path: , `dataset/dataset.py``dataset/data_visualizer.py`
+path: , `dataset/dataset.py`, `dataset/data_visualizer.py`
 
 All datasets can be found [here](https://box.nju.edu.cn/d/b33a9f73813048b8b00f/).
 
@@ -43,7 +43,7 @@ All datasets can be found [here](https://box.nju.edu.cn/d/b33a9f73813048b8b00f/)
 
 **2. `data_visualize` Function:**
 
-- Implement the method in `data_visualize``data_visualizer`
+- Implement the method `data_visualize` in `data_visualizer.py`.
 - This function should take two parameters:
   - `dataset`: Dataset to visualize. Dataset.data might have shape (n_samples, timesteps, channels) or (n_samples, timesteps), depending on whether the dataset has multiple channels.
   - `t`: An integer representing the number of continuous time points to visualize.
@@ -190,7 +190,7 @@ path: `models/Your_Model.py`
 **1. Modified Code:**
 
 - Provide the modified code for all components of the task.
-- Include a file in Markdown format that covers the entire task. This file should contain: `README.md`
+- Include a file in Markdown format that covers the entire task. This file should contain `README.md`: 
   - how to install any necessary dependencies for the entire task.
   - how to run the code and scripts to reproduce the reported results.
   - datasets used for testing in all parts of the task.
@@ -201,6 +201,6 @@ path: `models/Your_Model.py`
 
 **3. Submission Format:**
 
-- Submit the entire task, including all code and scripts, along with the file and the PDF report, in a compressed archive (.zip).`README.md`
+- Submit the entire task, including all code and scripts, along with the file `README.md` and the PDF report, in a compressed archive (.zip).
 
-**4. Submission Deadline:** 2025-11-25 23:55
+**4. Submission Deadline:** 2025-12-02 23:55
